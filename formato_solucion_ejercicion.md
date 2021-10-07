@@ -55,4 +55,14 @@ var n1 = parceInt(prompt("kilometros recorridos ");
 
 ```javascript
 
+
+var n1 = parceInt(prompt("kilometros recorridos ");
+ var n2 = parceInt(prompt("litros de conbustible gastados");
+ var r = n1 / parseInt(n2);
+ console.log( r + n1/n2   );
+  console.log( r * 100 "consumo por kilometros" );
+// juanchope
+
+
+
 ```
