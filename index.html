@@ -1,13 +1,43 @@
-<script type="text/javascript">
+<!DOCTYPE html>
+<html>
+<body>
 
-    let galleta_navidad = new molde_galleta("Galleta papa noel", "Azucarado", "pisca de tallo de naranjo");
-    let carro_uno = new molde_auto("Mazda", "CX8", "2021");
-    let carro_dos = new molde_auto("Chevrolet", "Onix", "2021");
-    let pikachu = new molde_pokemon("Pikachu", "electrico", 1320);
-    let charizard = new molde_pokemon("Charizard", "Fuego", 5220);
-    var dinosaurio = new  molde_pokemon("Charizard", "Fuego", 5220);
+<h2>JavaScript Array Methods</h2>
+<h2>toString()</h2>
+<p>parcial 2</p>
 
-    molde_pokemon.prototype.saludar = function(){
-      return `${this.nombre}!!!! :D`;
+<p id="demo"></p>
+
+<script>
+  class Plantas  {
+    constructor() {
+      this.nombre = "nombre";
+      this.arrayQuimica = "arrayQuimica";
+      this.tiempo_de_crecimiento = "tiempo_de_crecimiento";
+      this.tiempo_de_actual = "tiempo_de_actual";
+      this.luz ="luz ";
+      this.humedad ="humedad";
+      this.nutrientes = "nutrientes";
+
+      let Arrayfarmacos = ["remedio","colorante_artificial"];
+      let arrayQuimica = ["vitamina_A","vitamina_b","vitamina_c"];
+      let arrayPlagas = ["cochinillas","10 horas_de_maduracion","1000luz_"];
+
+    }
+  }
+  const planta = new Plantas("milonaria","colorante_artificial","2 48_horas") ;
+
+  const flor = new Plantas("arrayQuimica"+"Arrayfarmacos");
+  const flor2 = new Plantas("arrayPlagas"+"Arrayfarmacos");
+
+  console.log(planta);
+    console.log(flor);
+      console.log(flor2);
+
+
+
 
 </script>
+
+</body>
+</html>
